@@ -5,13 +5,13 @@ Ce projet utilise Ansible pour automatiser le déploiement et la gestion de la c
  - Salim Abi = (https://github.com/salimabi68/projet-ansible-lazy)
 
 ## Prérequis
-- Ansible 2.9 ou version ultérieure.
+- Ansible 2.9.
 - Serveurs avec Debian.
 - Accès SSH configuré pour les machines cibles.
 - Git, PHP et MySQL doivent être installés sur les serveurs cibles pour le déploiement.
 
 ## Configuration
-- Ansible: Configurer les fichiers inventory pour pointer vers vos serveurs de staging et de production.
+- Ansible: Configurer les fichiers inventories pour pointer vers vos serveurs de staging et de production.
 - Variables: Définir les variables nécessaires dans les dossiers group_vars ou host_vars selon l'environnement
 
 ## Déploiement + nginx
