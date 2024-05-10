@@ -7,7 +7,7 @@
 - name: Nginx configuration
   ansible.builtin.copy:
     src: files/nginx/nginx.conf
-    dest: /etc/nginx/conf.d/nginx.conf  # Replace the main nginx.conf file
+    dest: /etc/nginx/conf.d/nginx.conf 
   become: yes
   notify: 
     - restart_nginx
