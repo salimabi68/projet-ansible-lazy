@@ -15,11 +15,13 @@ Ce projet utilise Ansible pour automatiser le déploiement et la gestion de la c
 - Variables: Définir les variables nécessaires dans les dossiers group_vars ou host_vars selon l'environnement
 
 ## Déploiement + nginx
-``` Pour le staging :
+-  Pour le staging :
+```
   ansible-playbook -i ansible/inventories/hosts.yml ansible/webservers.yml
 ```
 
-``` Pour la production :
+- Pour la production :
+``` 
  ansible-playbook -i ansible/inventories/hosts.yml ansible/webservers.yml
 ```
 
